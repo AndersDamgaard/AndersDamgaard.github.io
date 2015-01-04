@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(img/street.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#tempBody {
+    position: relative;
+    top: 75%;
+    transform: translateY(-50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 15px;
+}
+
+#tempH1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    color: #eee;
+}
+
+#tempH2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: #eee;
+}
